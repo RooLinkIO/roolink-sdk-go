@@ -21,11 +21,11 @@ go get github.com/RooLinkIO/roolink-sdk-go/roolink
 ### Initialize RooLink SDK Session
 ```go
 ctx := context.Background()
-API_KEY = "your_api_key"
-protectedURL = "https://protected.example.net"
-userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+apiKey := "your_api_key"
+protectedURL := "https://protected.example.net"
+userAgent := "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
-session := roolink.NewSession(API_KEY, protectedURL, userAgent)
+session := roolink.NewSession(apiKey, protectedURL, userAgent)
 ```
 
 ### Fetch API Request Limit
