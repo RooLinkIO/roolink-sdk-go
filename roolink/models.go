@@ -19,6 +19,7 @@ type SensorPayload struct {
 	SecCpt     bool        `json:"sec_cpt"`
 	Stepper    bool        `json:"stepper"`
 	Index      int         `json:"index"`
+	Keyboard   bool        `json:"keyboard"`
 	Flags      string      `json:"flags"`
 }
 
