@@ -24,6 +24,7 @@ type SensorPayload struct {
 }
 
 type SbsdPayload struct {
+	Url       string `json:"url"`
 	UserAgent string `json:"userAgent"`
 	Vid       string `json:"vid"`
 	Cookie    string `json:"bm_o"`
